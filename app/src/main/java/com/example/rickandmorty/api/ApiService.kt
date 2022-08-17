@@ -12,5 +12,4 @@ interface ApiService {
     suspend fun getAllCharacters(
         @Query("page") page: Int
     ): Response<ResponseApi>
-
 }
