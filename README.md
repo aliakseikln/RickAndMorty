@@ -11,7 +11,7 @@ This simple application shows all the characters from "Rick and Morty" series in
 
 # Libraries and technologies used.
 - [Retrofit](https://square.github.io/retrofit/) - Making HTTP connection with the rest API and convert reponse json file to Kotlin/Java object.
-- MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.
+- [MVVM & LiveData](https://developer.android.com/topic/architecture) : Saperate logic code from views and save the state in case the screen configuration changes.
 - [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html#sample-projects) - Do some code in the background.
 - [Data binding](https://developer.android.com/topic/libraries/data-binding) - Allows to bind UI components in layouts to data sources.
 - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Compile-time framework for dependency injection.
